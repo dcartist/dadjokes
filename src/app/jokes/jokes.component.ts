@@ -17,6 +17,7 @@ export class JokesComponent implements OnInit {
 
 
   ngOnInit(): void {
+    this.pullingJokes()
   }
  works(){
    console.log("click")
