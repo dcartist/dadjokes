@@ -4,11 +4,13 @@ import {HttpClientModule} from '@angular/common/http' //importing the client mod
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { JokesComponent } from './jokes/jokes.component';
+import { DadjokeComponent } from './dadjoke/dadjoke.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    JokesComponent
+    JokesComponent,
+    DadjokeComponent
   ],
   imports: [
     BrowserModule,
